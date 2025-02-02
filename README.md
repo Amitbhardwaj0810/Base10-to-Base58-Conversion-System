@@ -22,6 +22,14 @@
 ## Module Description
 - The dsd055 module converts a 6-bit Base 10 input into a pair of Base 58 characters, outputting a 16-bit value representing these characters. The Base 58 character set includes digits, uppercase, and lowercase letters, excluding easily confused characters (0, O, I, l).
 
+## Learnings from the Project
+- Base Conversion Logic: Gained a deep understanding of number system conversions, specifically from Base 10 to Base 58, including quotient-remainder calculations.
+- Verilog Programming: Learned to design and implement a Verilog module (dsd055) for hardware-level number system conversion.
+- Clock and Reset Handling: Mastered clock synchronization and reset logic in Verilog to ensure accurate and reliable module operation.
+- Character Mapping: Implemented a Base 58 character set, excluding ambiguous characters (0, O, I, l), for clear and compact data representation.
+- Error Handling: Incorporated logic to handle out-of-range inputs by defaulting to 8'h00.
+- Simulation and Testing: Developed and tested Verilog code using simulations to validate functionality and accuracy.
+
 ## Conclusion
 The project successfully implemented a Verilog module to convert a 6-bit Base 10 input into Base 58 characters. The module can be used in applications requiring Base 58 encoding for better readability or compact data representation.
 
